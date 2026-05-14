@@ -21,7 +21,30 @@ def punto():
     print(fahr)
 
     print("f")
+    lista_palabras = ["ayuda","industrial","iapp","moreno"]
+    for i in lista_palabras:
+        if len(i) > 5:
+            print(i)
     
+    print("g")
+    for i in lista_palabras:
+        print(i[0])
+    
+    print("h")
+    #usando la lista del punto d
+    for i in lista:
+        if i % 2 == 0:
+            print("es par")
+        else:
+            print("es impar")
+    
+    print("i")
+    matriz =  [[1,2,3], [4,5,6], [7,8,9]]
+    listaAplanada = []
+    for i in matriz:
+        for j in i:
+            listaAplanada.append(j)
+    print(listaAplanada)
 
 def main():
     punto()
